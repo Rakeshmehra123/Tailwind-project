@@ -9,7 +9,7 @@ function Layout() {
 
     return (
       <>
-        <div>
+        <div className='bg-zinc-700 min-h-screen'>
         <Header/>
         <Outlet/>
         <Footer/>

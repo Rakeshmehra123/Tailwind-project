@@ -16,7 +16,7 @@ const Body = () => {
           Software Developer
         </h1>
 
-        <p className=" text-white text-lg mt-5  pt-2 ml-50 text-amber-100">
+        <p className=" text-white text-lg mt-5 m-8 pt-2 ml-50 text-amber-100">
           {" "}
           Hi, I'm Rakesh Mehra A passionate software developer <br></br>with a
           focus on creating innovative and efficient solutions.<br></br> I
@@ -27,8 +27,8 @@ const Body = () => {
       </div>
       <div>
         <Link
-          href="#"
-          className="px-12 py-5 mt-2 ml-55 rounded-2xl bg-green-600 text-amber-100 pointer"
+          to="/Project"
+          className="px-12 py-5  ml-50 rounded-2xl bg-green-600 text-amber-100 pointer"
         >
           let's get started
         </Link>
