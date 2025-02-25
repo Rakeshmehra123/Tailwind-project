@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   return (
@@ -25,12 +26,12 @@ const Body = () => {
         </p>
       </div>
       <div>
-        <button
+        <Link
           href="#"
           className="px-12 py-5 mt-2 ml-55 rounded-2xl bg-green-600 text-amber-100 pointer"
         >
           let's get started
-        </button>
+        </Link>
       </div>
     </div>
   );

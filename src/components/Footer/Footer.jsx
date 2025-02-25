@@ -3,34 +3,35 @@ import { BsLinkedin } from "react-icons/bs";
 import { SiGithub } from "react-icons/si";
 import { AiTwotoneHome } from "react-icons/ai";
 import { GoProjectSymlink } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="mt-35 ml-50 text-amber-100 font medium bg-stone-600 mr-50 px-8 py-5 rounded-2xl">
       <ul className="flex justify-between px-5 gap-4 font-semibold">
         <li className="hover:bg-cyan-200 p-3 hover:text-black rounded-lg text-white ">
-          <a href="/index.html">
+          <Link to="/index.html">
             <AiTwotoneHome />
-          </a>
+          </Link>
         </li>
         <li className="hover:bg-cyan-200 p-3 hover:text-black  rounded-lg text-white">
-          <a href="">
+          <Link to="">
             <GoProjectSymlink />
-          </a>
+          </Link>
         </li>
 
         <li className="p-3 hover:bg-cyan-200 p-2 hover:text-black  rounded-lg text-white">
-          <a
-            href="https://www.linkedin.com/in/rakesh-mehra-356a6b222/"
+          <Link
+            to="https://www.linkedin.com/in/rakesh-mehra-356a6b222/"
             target="_blank"
           >
             <BsLinkedin />
-          </a>{" "}
+          </Link>{" "}
         </li>
         <li className="p-3 hover:bg-cyan-200 p-2 hover:text-black  rounded-lg text-white">
-          <a href="https://github.com/Rakeshmehra123" target="_blank">
+          <Link to="https://github.com/Rakeshmehra123" target="_blank">
             <SiGithub />
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
