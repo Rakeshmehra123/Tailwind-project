@@ -6,7 +6,7 @@ const Body = () => {
     <div>
       <div className="relative flex items-center space-x-4">
         <img
-          src="./src/assets/picture.svg"
+          src="./src/assets/picture.jpg"
           alt="pic"
           className='"w-90 h-90 object-cover absolute flex ml-200 mt-150 rounded-4xl'
         ></img>
