@@ -4,19 +4,19 @@ import { Link } from "react-router-dom";
 const Body = () => {
   return (
     <div>
-      <div className="relative flex items-center space-x-4">
+     <div className=" flex items-center space-x-4 hidden sm:block">
         <img
-          src="./src/assets/picture.jpg"
+          src="./src/assets/picture.svg"
           alt="pic"
-          className='"w-90 h-90 object-cover absolute flex ml-200 mt-150 rounded-4xl'
+          className='"w-90 h-90 object-cover absolute left-200  order-2 rounded-4xl'
         ></img>
       </div>
-      <div className="">
-        <h1 className="text-white text-5xl font-md ml-50 mt-30 text-amber-100 flex">
+      <div className="mx-auto relative order-1 ">
+        <h1 className="text-white ml-20  text-5xl font-md  mt-30 text-amber-100 flex">
           Software Developer
         </h1>
 
-        <p className=" text-white text-lg mt-5 m-8 pt-2 ml-50 text-amber-100">
+        <p className=" text-white  ml-20  text-lg mt-5 m-8 pt-2  text-amber-100">
           {" "}
           Hi, I'm Rakesh Mehra A passionate software developer <br></br>with a
           focus on creating innovative and efficient solutions.<br></br> I
@@ -28,7 +28,7 @@ const Body = () => {
       <div>
         <Link
           to="/Project"
-          className="px-12 py-5  ml-50 rounded-2xl bg-green-600 text-amber-100 pointer"
+          className="px-12 mt-5 py-5  ml-20  rounded-2xl bg-green-600 text-amber-100 pointer"
         >
           let's get started
         </Link>

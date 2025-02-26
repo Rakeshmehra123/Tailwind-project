@@ -7,8 +7,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="mt-35 ml-50 text-amber-100 font medium bg-stone-600 mr-50 px-8 py-5 rounded-2xl">
-      <ul className="flex justify-between px-5 gap-4 font-semibold">
+    <footer>
+    <div className=" mt-35  text-amber-100 font medium bg-stone-600 px-8 py-5 rounded-2xl">
+      <ul className="flex justify-around px-5 gap-4 font-semibold">
         <li className="hover:bg-cyan-200 p-3 hover:text-black rounded-lg text-white ">
           <Link to="/">
             <AiTwotoneHome />
@@ -43,7 +44,9 @@ const Footer = () => {
           </Link>
         </li>
       </ul>
+      
     </div>
+    </footer>
   );
 };
 
