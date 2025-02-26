@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div>
       <nav className="bg-stone-600 py-2 rounded-2xl  text-amber-50 no-underline  ">
-        <h1 className=" md:font-semibold font-size-2xl sm:text-sm ">
+        <h1 className=" md:font-semibold font-size-2xl sm:text-sm px-2">
           Hi, i m Rakesh Mehra
         </h1>
 
