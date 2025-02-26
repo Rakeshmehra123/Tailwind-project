@@ -10,6 +10,7 @@ import {
 import Home from "./components/Home/Home.jsx";
 import Project from "./components/Project/Project.jsx";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
         path: "Project",
         element: <Project />,
       },
+      
     ],
   },
 ]);

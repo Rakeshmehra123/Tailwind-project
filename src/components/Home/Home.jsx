@@ -28,9 +28,9 @@ const Body = () => {
       <div>
         <Link
           to="/Project"
-          className="px-12 mt-5 py-5  ml-20  rounded-2xl bg-green-600 text-amber-100 pointer"
+          className="px-12 mt-5 py-5  ml-20  rounded-2xl bg-gradient-to-r from-green-400 to-lime-600 text-amber-100 font-medium"
         >
-          let's get started
+          click me
         </Link>
       </div>
     </div>
