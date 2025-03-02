@@ -10,7 +10,7 @@ const Project = () => {
           Key logger
         </h1>
 
-        <p className=" text-white  ml-20  text-lg mt-5 m-8 pt-2  text-amber-100">
+        <p className=" text-white  ml-20  text-lg mt-5 m-8 pt-2  text-amber-100 ">
           {" "}
           A Keylogger Project is a web page built using JavaScript HTML css and
           designed to monitor and record the keystrokes made on a computer or
@@ -24,7 +24,7 @@ const Project = () => {
         <Link
           to="https://keystrokelogger.netlify.app/"
           target="_blank"
-          className="px-12 mt-5 py-5  ml-20  rounded-2xl bg-gradient-to-r from-green-400 to-lime-600 text-amber-100 pointer"
+          className="px-12 mt-5 py-5  ml-20  rounded-2xl bg-gradient-to-r from-green-400 to-lime-600 text-amber-100 font-semibold pointer"
         >
           KeyLogger
         </Link>
@@ -48,9 +48,29 @@ const Project = () => {
         <Link
           to="https://signforauth.netlify.app/"
           target="_blank"
-          className="px-12 mt-5 py-5  ml-20  rounded-2xl bg-gradient-to-r from-green-400 to-lime-600 text-amber-100 pointer"
+          className="px-12 mt-5 py-5  ml-20  rounded-2xl bg-gradient-to-r from-green-400 to-lime-600 text-amber-100 font-semibold"
         >
           Signature App
+        </Link>
+      </div>
+      <div className="">
+        <h1 className="text-white ml-20  text-3xl font-md  mt-30 text-amber-100 flex">
+          Typing Test App
+        </h1>
+
+        <p className=" text-white  ml-20  text-lg mt-5 m-8 pt-2  text-amber-100">
+          {" "}
+          The Typing Test App is an interactive web-based application designed to help users monitor and improve their typing speed and accuracy. Built using HTML, CSS, and JavaScript, the app features a user-friendly interface that tests typing skills with real-time feedback. The app tracks key metrics such as Words Per Minute (WPM), Characters Per Minute (CPM), and Time Left, along with error detection to help users identify and correct mistakes while typing.{" "}
+        </p>
+      </div>
+      <div>
+        <br></br>
+        <Link
+          to="https://typingtestforfun.netlify.app/"
+          target="_blank"
+          className="px-12 mt-5 py-5  ml-20  rounded-2xl bg-gradient-to-r from-green-400 to-lime-600 text-amber-100 font-semibold"
+        >
+          Typing Test App
         </Link>
       </div>
     </div>
